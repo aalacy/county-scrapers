@@ -1,0 +1,452 @@
+2020-10-27 16:15:07 [scrapy.utils.log] INFO: Scrapy 2.4.0 started (bot: MiamiPropertyTaxesScrapper)
+2020-10-27 16:15:07 [scrapy.utils.log] INFO: Versions: lxml 4.6.1.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1h  22 Sep 2020), cryptography 3.2, Platform Darwin-17.7.0-x86_64-i386-64bit
+2020-10-27 16:15:07 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-10-27 16:15:07 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 1.0,
+ 'AUTOTHROTTLE_START_DELAY': 0.5,
+ 'BOT_NAME': 'MiamiPropertyTaxesScrapper',
+ 'COOKIES_ENABLED': False,
+ 'DOWNLOAD_DELAY': 0.4,
+ 'DOWNLOAD_TIMEOUT': 1200,
+ 'NEWSPIDER_MODULE': 'MiamiPropertyTaxesScrapper.spiders',
+ 'RANDOMIZE_DOWNLOAD_DELAY': False,
+ 'SPIDER_MODULES': ['MiamiPropertyTaxesScrapper.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'}
+2020-10-27 16:15:07 [scrapy.extensions.telnet] INFO: Telnet Password: aaed9fd1d4ec0ac5
+2020-10-27 16:15:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2020-10-27 16:15:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'MiamiPropertyTaxesScrapper.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-10-27 16:15:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from before-call.apigateway to before-call.api-gateway
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2020-10-27 16:15:08 [botocore.loaders] DEBUG: Loading JSON file: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/botocore/data/endpoints.json
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Event choose-service-name: calling handler <function handle_service_name_alias at 0x108d0eea0>
+2020-10-27 16:15:08 [botocore.loaders] DEBUG: Loading JSON file: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/botocore/data/s3/2006-03-01/service-2.json
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x108cc8400>
+2020-10-27 16:15:08 [botocore.hooks] DEBUG: Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x108cc81e0>
+2020-10-27 16:15:08 [botocore.endpoint] DEBUG: Setting s3 timeout as (60, 60)
+2020-10-27 16:15:08 [botocore.loaders] DEBUG: Loading JSON file: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/botocore/data/_retry.json
+2020-10-27 16:15:08 [botocore.client] DEBUG: Registering retry handlers for service: s3
+2020-10-27 16:15:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['MiamiPropertyTaxesScrapper.pipelines.MiamiTaxFilesPipeline',
+ 'MiamiPropertyTaxesScrapper.pipelines.MongoPipeline']
+2020-10-27 16:15:08 [scrapy.core.engine] INFO: Spider opened
+2020-10-27 16:15:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-10-27 16:15:08 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-10-27 16:15:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills> (referer: None)
+2020-10-27 16:15:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills/15387429#parcel> (referer: https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills)
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x108d35840>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x108d357b8>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10942f9b0>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x108d35620>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x108d35ae8>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x108d39d90>
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Making request for OperationModel(name=HeadObject) with params: {'url_path': '/miami-property-taxes/30-3104-005-2101_bills_14360866.pdf', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Botocore/1.19.4 Python/3.7.0 Darwin/17.7.0'}, 'body': b'', 'url': 'http://s3.amazonaws.com/miami-property-taxes/30-3104-005-2101_bills_14360866.pdf', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x109404e48>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'miami-property-taxes'}}}
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x109404e10>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x108d7e5f8>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x108d35510>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-sign.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10942fa20>>
+2020-10-27 16:15:14 [botocore.utils] DEBUG: Defaulting to S3 virtual host style addressing with path style addressing fallback.
+2020-10-27 16:15:14 [botocore.utils] DEBUG: Checking for DNS compatible bucket for: http://s3.amazonaws.com/miami-property-taxes/30-3104-005-2101_bills_14360866.pdf
+2020-10-27 16:15:14 [botocore.utils] DEBUG: URI updated to: http://miami-property-taxes.s3.amazonaws.com/30-3104-005-2101_bills_14360866.pdf
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Calculating signature using v4 auth.
+2020-10-27 16:15:14 [botocore.auth] DEBUG: CanonicalRequest:
+HEAD
+/30-3104-005-2101_bills_14360866.pdf
+
+host:miami-property-taxes.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20201027T231514Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-10-27 16:15:14 [botocore.auth] DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20201027T231514Z
+20201027/us-east-1/s3/aws4_request
+060f8cc755c1218d4158b487fa5bffc7ff97c33b000fca3d5f9c5dc680e9d408
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Signature:
+335f84eaab74ddc55396752a26f044a56b0ea223eb83f73d004b0212af2cc163
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://miami-property-taxes.s3.amazonaws.com/30-3104-005-2101_bills_14360866.pdf, headers={'User-Agent': b'Botocore/1.19.4 Python/3.7.0 Darwin/17.7.0', 'X-Amz-Date': b'20201027T231514Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAT34F3EZ42TUNRYZJ/20201027/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=335f84eaab74ddc55396752a26f044a56b0ea223eb83f73d004b0212af2cc163'}>
+2020-10-27 16:15:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): miami-property-taxes.s3.amazonaws.com:80
+2020-10-27 16:15:14 [urllib3.connectionpool] DEBUG: http://miami-property-taxes.s3.amazonaws.com:80 "HEAD /30-3104-005-2101_bills_14360866.pdf HTTP/1.1" 400 0
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response headers: {'x-amz-request-id': 'B8B9B8393FCB01C1', 'x-amz-id-2': 'js0jyZGCRnDOWCltu8Ldk+BAxWGu4S+h5RnUGGt7GuCid0HOicLdeMOh/B3rbvMXxnUMpp64Na4=', 'Content-Type': 'application/xml', 'Date': 'Tue, 27 Oct 2020 23:15:13 GMT', 'Server': 'AmazonS3', 'Connection': 'close'}
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response body:
+b''
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x10942f320>
+2020-10-27 16:15:14 [botocore.retryhandler] DEBUG: No retry needed.
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadBucket: calling handler <function validate_bucket_name at 0x108d357b8>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadBucket: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadBucket: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10942f9b0>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-parameter-build.s3.HeadBucket: calling handler <function generate_idempotent_uuid at 0x108d35620>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-call.s3.HeadBucket: calling handler <function add_expect_header at 0x108d35ae8>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-call.s3.HeadBucket: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-call.s3.HeadBucket: calling handler <function inject_api_version_header_if_needed at 0x108d39d90>
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Making request for OperationModel(name=HeadBucket) with params: {'url_path': '/miami-property-taxes', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Botocore/1.19.4 Python/3.7.0 Darwin/17.7.0'}, 'body': b'', 'url': 'http://s3.amazonaws.com/miami-property-taxes', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x109404e48>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'miami-property-taxes'}}}
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event request-created.s3.HeadBucket: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x109404e10>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadBucket: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x108d7e5f8>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadBucket: calling handler <function set_operation_specific_signer at 0x108d35510>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-sign.s3.HeadBucket: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10942fa20>>
+2020-10-27 16:15:14 [botocore.utils] DEBUG: Checking for DNS compatible bucket for: http://s3.amazonaws.com/miami-property-taxes
+2020-10-27 16:15:14 [botocore.utils] DEBUG: URI updated to: http://miami-property-taxes.s3.amazonaws.com/
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Calculating signature using v4 auth.
+2020-10-27 16:15:14 [botocore.auth] DEBUG: CanonicalRequest:
+HEAD
+/
+
+host:miami-property-taxes.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20201027T231514Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-10-27 16:15:14 [botocore.auth] DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20201027T231514Z
+20201027/us-east-1/s3/aws4_request
+252befef2c929693cbbfee048a690c5dfda4ea7e23d769ad8385da8f8afadb7a
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Signature:
+6702a0c4c6f7d89ed8eeace83e0cdc133433183f562682f0fdc5647642ad72c7
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://miami-property-taxes.s3.amazonaws.com/, headers={'User-Agent': b'Botocore/1.19.4 Python/3.7.0 Darwin/17.7.0', 'X-Amz-Date': b'20201027T231514Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAT34F3EZ42TUNRYZJ/20201027/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=6702a0c4c6f7d89ed8eeace83e0cdc133433183f562682f0fdc5647642ad72c7'}>
+2020-10-27 16:15:14 [urllib3.connectionpool] DEBUG: Resetting dropped connection: miami-property-taxes.s3.amazonaws.com
+2020-10-27 16:15:14 [urllib3.connectionpool] DEBUG: http://miami-property-taxes.s3.amazonaws.com:80 "HEAD / HTTP/1.1" 400 0
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response headers: {'x-amz-bucket-region': 'us-west-1', 'x-amz-request-id': '51012EEA2213297F', 'x-amz-id-2': '25+TAdj8F/7W145wIHqIKfpYR/QaJbYXvBO7KcUhHJG04CumiQl2vXQnJ1zHKiqlPKB2EyBfX40=', 'Content-Type': 'application/xml', 'Date': 'Tue, 27 Oct 2020 23:15:13 GMT', 'Server': 'AmazonS3', 'Connection': 'close'}
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response body:
+b''
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadBucket: calling handler <botocore.retryhandler.RetryHandler object at 0x10942f320>
+2020-10-27 16:15:14 [botocore.retryhandler] DEBUG: No retry needed.
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadBucket: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.utils] DEBUG: S3 client configured for region us-east-1 but the bucket miami-property-taxes is in region us-west-1; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2020-10-27 16:15:14 [botocore.utils] DEBUG: Updating URI from http://s3.amazonaws.com/miami-property-taxes to http://s3.us-west-1.amazonaws.com/miami-property-taxes
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Response received to retry, sleeping for 0 seconds
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event request-created.s3.HeadBucket: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x109404e10>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadBucket: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x108d7e5f8>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadBucket: calling handler <function set_operation_specific_signer at 0x108d35510>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-sign.s3.HeadBucket: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10942fa20>>
+2020-10-27 16:15:14 [botocore.utils] DEBUG: Checking for DNS compatible bucket for: http://s3.us-west-1.amazonaws.com/miami-property-taxes
+2020-10-27 16:15:14 [botocore.utils] DEBUG: URI updated to: http://miami-property-taxes.s3.us-west-1.amazonaws.com/
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Calculating signature using v4 auth.
+2020-10-27 16:15:14 [botocore.auth] DEBUG: CanonicalRequest:
+HEAD
+/
+
+host:miami-property-taxes.s3.us-west-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20201027T231514Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-10-27 16:15:14 [botocore.auth] DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20201027T231514Z
+20201027/us-west-1/s3/aws4_request
+187d8d86197fc03c486911b8de64fcfed69c6a6fc6fc919ab7021c09c2c30196
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Signature:
+d80fe5bc5951abcffe3d0bb295a104b48ff5a1e66e793d932a362d3d6c07eb0b
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://miami-property-taxes.s3.us-west-1.amazonaws.com/, headers={'User-Agent': b'Botocore/1.19.4 Python/3.7.0 Darwin/17.7.0', 'X-Amz-Date': b'20201027T231514Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAT34F3EZ42TUNRYZJ/20201027/us-west-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=d80fe5bc5951abcffe3d0bb295a104b48ff5a1e66e793d932a362d3d6c07eb0b'}>
+2020-10-27 16:15:14 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): miami-property-taxes.s3.us-west-1.amazonaws.com:80
+2020-10-27 16:15:14 [urllib3.connectionpool] DEBUG: http://miami-property-taxes.s3.us-west-1.amazonaws.com:80 "HEAD / HTTP/1.1" 200 0
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response headers: {'x-amz-id-2': 'n3uhjk8b5op44pqg+HGnk7mv9ag279yfGPdyHyzncjb0Up20xV4QtQbNkfKl/lpJAMCLjcbFaEY=', 'x-amz-request-id': '960B3D5982A0868E', 'Date': 'Tue, 27 Oct 2020 23:15:15 GMT', 'x-amz-bucket-region': 'us-west-1', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response body:
+b''
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadBucket: calling handler <botocore.retryhandler.RetryHandler object at 0x10942f320>
+2020-10-27 16:15:14 [botocore.retryhandler] DEBUG: No retry needed.
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadBucket: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.utils] DEBUG: S3 request was previously redirected, not redirecting.
+2020-10-27 16:15:14 [botocore.utils] DEBUG: S3 client configured for region us-east-1 but the bucket miami-property-taxes is in region us-west-1; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2020-10-27 16:15:14 [botocore.utils] DEBUG: Updating URI from http://s3.amazonaws.com/miami-property-taxes/30-3104-005-2101_bills_14360866.pdf to http://s3.us-west-1.amazonaws.com/miami-property-taxes/30-3104-005-2101_bills_14360866.pdf
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Response received to retry, sleeping for 0 seconds
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x109404e10>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x108d7e5f8>>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x108d35510>
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event before-sign.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10942fa20>>
+2020-10-27 16:15:14 [botocore.utils] DEBUG: Checking for DNS compatible bucket for: http://s3.us-west-1.amazonaws.com/miami-property-taxes/30-3104-005-2101_bills_14360866.pdf
+2020-10-27 16:15:14 [botocore.utils] DEBUG: URI updated to: http://miami-property-taxes.s3.us-west-1.amazonaws.com/30-3104-005-2101_bills_14360866.pdf
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Calculating signature using v4 auth.
+2020-10-27 16:15:14 [botocore.auth] DEBUG: CanonicalRequest:
+HEAD
+/30-3104-005-2101_bills_14360866.pdf
+
+host:miami-property-taxes.s3.us-west-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20201027T231514Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2020-10-27 16:15:14 [botocore.auth] DEBUG: StringToSign:
+AWS4-HMAC-SHA256
+20201027T231514Z
+20201027/us-west-1/s3/aws4_request
+ffbcc2ca6ba755a0a8e8b363c3c2b0d643d4a7731cd5aa10add122a595d508b8
+2020-10-27 16:15:14 [botocore.auth] DEBUG: Signature:
+6d5a5fb2bea3f735e98f1c5f458f37a2d622ea1508f112e558a318ab6cff7ce4
+2020-10-27 16:15:14 [botocore.endpoint] DEBUG: Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://miami-property-taxes.s3.us-west-1.amazonaws.com/30-3104-005-2101_bills_14360866.pdf, headers={'User-Agent': b'Botocore/1.19.4 Python/3.7.0 Darwin/17.7.0', 'X-Amz-Date': b'20201027T231514Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAT34F3EZ42TUNRYZJ/20201027/us-west-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=6d5a5fb2bea3f735e98f1c5f458f37a2d622ea1508f112e558a318ab6cff7ce4'}>
+2020-10-27 16:15:14 [urllib3.connectionpool] DEBUG: http://miami-property-taxes.s3.us-west-1.amazonaws.com:80 "HEAD /30-3104-005-2101_bills_14360866.pdf HTTP/1.1" 200 0
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response headers: {'x-amz-id-2': '5XiB+d+QNCAS4y1sOko0Y4exQ/zKfSOTx+qE59ZR7cjmyNYHgJAHt+lJyzCaeyR80xH1Z5/hcrU=', 'x-amz-request-id': '9AA34BD4ABEA884F', 'Date': 'Tue, 27 Oct 2020 23:15:15 GMT', 'Last-Modified': 'Tue, 27 Oct 2020 22:49:13 GMT', 'ETag': '"ea04041813a8c964ae8994852e314c2c"', 'Cache-Control': 'max-age=172800', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Content-Length': '624566', 'Server': 'AmazonS3'}
+2020-10-27 16:15:14 [botocore.parsers] DEBUG: Response body:
+b''
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x10942f320>
+2020-10-27 16:15:14 [botocore.retryhandler] DEBUG: No retry needed.
+2020-10-27 16:15:14 [botocore.hooks] DEBUG: Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x10942f2b0>>
+2020-10-27 16:15:14 [botocore.utils] DEBUG: S3 request was previously redirected, not redirecting.
+2020-10-27 16:15:14 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded file from <GET https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills/14360866/print> referred in <None>
+2020-10-27 16:15:15 [root] DEBUG: Item added to MongoDB
+2020-10-27 16:15:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills/15387429>
+{'data': {'account_history': {'2013_annual_bill': {'amount_due': '$0.00',
+                                                   'status': {'payments': [{'date': '11/22/2013',
+                                                                            'paid': '$966.07',
+                                                                            'receipt_number': '#EEX-14-000810'}],
+                                                              'refund': []}},
+                              '2014_annual_bill': {'amount_due': '$0.00',
+                                                   'status': {'payments': [{'date': '11/14/2014',
+                                                                            'paid': '$974.05',
+                                                                            'receipt_number': '#EEX-15-000017'}],
+                                                              'refund': []}},
+                              '2015_annual_bill': {'amount_due': '$0.00',
+                                                   'status': {'payments': [{'date': '11/13/2015',
+                                                                            'paid': '$961.69',
+                                                                            'receipt_number': '#EEX-16-000036'}],
+                                                              'refund': []}},
+                              '2016_annual_bill': {'amount_due': '$0.00',
+                                                   'status': {'payments': [{'date': '11/15/2016',
+                                                                            'paid': '$952.53',
+                                                                            'receipt_number': '#EEX-17-000027'}],
+                                                              'refund': []}},
+                              '2017_annual_bill': {'amount_due': '$0.00',
+                                                   'status': {'payments': [{'date': '11/28/2017',
+                                                                            'paid': '$2,700.64',
+                                                                            'receipt_number': '#EEX-18-000027'}],
+                                                              'refund': []}},
+                              '2018_annual_bill': {'amount_due': '$0.00',
+                                                   'status': {'payments': [{'date': '11/15/2018',
+                                                                            'paid': '$2,699.00',
+                                                                            'receipt_number': '#EEX-19-000029'}],
+                                                              'refund': []}},
+                              '2019_annual_bill': {'amount_due': '$0.00',
+                                                   'status': {'payments': [{'date': '11/21/2019',
+                                                                            'paid': '$2,743.14',
+                                                                            'receipt_number': '#EEX-20-000048'}],
+                                                              'refund': []}}},
+          'ad_alorem_taxes': {'table': {'miami-dade_county': [{'assessed': '66,056',
+                                                               'exemption': '41,056',
+                                                               'millage': '4.66690',
+                                                               'tax': '$116.67',
+                                                               'taxable': '25,000',
+                                                               'taxing_authority': 'County '
+                                                                                   'Wide '
+                                                                                   'Operating'},
+                                                              {'assessed': '66,056',
+                                                               'exemption': '41,056',
+                                                               'millage': '0.47800',
+                                                               'tax': '$11.95',
+                                                               'taxable': '25,000',
+                                                               'taxing_authority': 'County '
+                                                                                   'Wide '
+                                                                                   'Debt '
+                                                                                   'Service'},
+                                                              {'assessed': '66,056',
+                                                               'exemption': '41,056',
+                                                               'millage': '1.92830',
+                                                               'tax': '$48.21',
+                                                               'taxable': '25,000',
+                                                               'taxing_authority': 'Unincorporated '
+                                                                                   'Operating'},
+                                                              {'assessed': '66,056',
+                                                               'exemption': '41,056',
+                                                               'millage': '0.28400',
+                                                               'tax': '$7.10',
+                                                               'taxable': '25,000',
+                                                               'taxing_authority': 'Library '
+                                                                                   'District'},
+                                                              {'assessed': '66,056',
+                                                               'exemption': '41,056',
+                                                               'millage': '2.42070',
+                                                               'tax': '$60.52',
+                                                               'taxable': '25,000',
+                                                               'taxing_authority': 'Fire '
+                                                                                   'Rescue '
+                                                                                   'Operating'},
+                                                              {'assessed': '66,056',
+                                                               'exemption': '41,056',
+                                                               'millage': '0.00000',
+                                                               'tax': '$0.00',
+                                                               'taxable': '25,000',
+                                                               'taxing_authority': 'Fire '
+                                                                                   'Rescue '
+                                                                                   'Debt '
+                                                                                   'Service'}],
+                                        'miami-dade_school_board': [{'assessed': '66,056',
+                                                                     'exemption': '25,000',
+                                                                     'millage': '7.02500',
+                                                                     'tax': '$288.42',
+                                                                     'taxable': '41,056',
+                                                                     'taxing_authority': 'School '
+                                                                                         'Board '
+                                                                                         'Operating'},
+                                                                    {'assessed': '66,056',
+                                                                     'exemption': '25,000',
+                                                                     'millage': '0.12300',
+                                                                     'tax': '$5.05',
+                                                                     'taxable': '41,056',
+                                                                     'taxing_authority': 'School '
+                                                                                         'Board '
+                                                                                         'Debt '
+                                                                                         'Service'}],
+                                        'state_and_other': [{'assessed': '66,056',
+                                                             'exemption': '41,056',
+                                                             'millage': '0.03200',
+                                                             'tax': '$0.80',
+                                                             'taxable': '25,000',
+                                                             'taxing_authority': 'Florida '
+                                                                                 'Inland '
+                                                                                 'Navigation '
+                                                                                 'Dist'},
+                                                            {'assessed': '66,056',
+                                                             'exemption': '41,056',
+                                                             'millage': '0.11520',
+                                                             'tax': '$2.88',
+                                                             'taxable': '25,000',
+                                                             'taxing_authority': 'South '
+                                                                                 'Florida '
+                                                                                 'Water '
+                                                                                 'Mgmt '
+                                                                                 'Dist'},
+                                                            {'assessed': '66,056',
+                                                             'exemption': '41,056',
+                                                             'millage': '0.12460',
+                                                             'tax': '$3.12',
+                                                             'taxable': '25,000',
+                                                             'taxing_authority': 'Okeechobee '
+                                                                                 'Basin'},
+                                                            {'assessed': '66,056',
+                                                             'exemption': '41,056',
+                                                             'millage': '0.03970',
+                                                             'tax': '$0.99',
+                                                             'taxable': '25,000',
+                                                             'taxing_authority': 'Everglades '
+                                                                                 'Construction '
+                                                                                 'Proj'},
+                                                            {'assessed': '66,056',
+                                                             'exemption': '41,056',
+                                                             'millage': '0.46800',
+                                                             'tax': '$11.70',
+                                                             'taxable': '25,000',
+                                                             'taxing_authority': 'Childrens '
+                                                                                 'Trust '
+                                                                                 'Authority'}]},
+                              'total': {'d-none_d-md-table-cell': '',
+                                        'millage': '17.70540',
+                                        'tax': '$557.41'}},
+          'combined_taxes_and_assessments': ' $2,785.51',
+          'latest_annual_bill': {'notices': 'Miami-Dade County Tax Collector '
+                                            'Notice of Ad Valorem Taxes and '
+                                            'Non-ad Valorem Assessments',
+                                 'pdfs': ['30-3104-005-2101_bills_14360866.pdf'],
+                                 'pdfurls': ['https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills/14360866/print'],
+                                 'table': [{'amount_due': '$0.00',
+                                            'bill': '2019 Annual bill',
+                                            'escrow_code': '686',
+                                            'millage_code': '3000'}]},
+          'mailing_address': {'miami-dade_county_tax_collector': '200 NW 2nd '
+                                                                 'Avenue, '
+                                                                 'Miami, FL '
+                                                                 '33128'},
+          'nonad_valorem_taxes': {'table': {'amount': '$484.00',
+                                            'levying_authority': 'GARB,TRASH,TRC,RECYCLE',
+                                            'rate': '@ 484.0000'},
+                                  'total': '$2,228.10'},
+          'parcel_details': {'2019_annual_bill': {'ad_valorem': '$557.41',
+                                                  'no_discount_nava': '$1,726.14',
+                                                  'non-ad_valorem': '$2,228.10',
+                                                  'total_discountable': '$1,059.37',
+                                                  'total_tax': '$2,785.51'},
+                             'account': '30-3104-005-2101',
+                             'assessed_value': '$66,056',
+                             'escrow_company': 'WELLS FARGO HOME MORTGAGE '
+                                               '(686) 1 HOME CAMPUS '
+                                               'MACX2302-04D DES MOINES, IA '
+                                               '50328-0001',
+                             'legal_description': '4 53 41 THE TROPICS ADD PB '
+                                                  '5-91 LOT 2 BLK 28 LOT SIZE '
+                                                  '50.000 X 140 OR 14056-443 '
+                                                  '0389 1',
+                             'location': {'block': '01',
+                                          'range': '41E',
+                                          'section': '04',
+                                          'total_acres': '0.000',
+                                          'township': '53S',
+                                          'use_code': '0101'},
+                             'millage_code': '3000 - UNINCORPORATED DADE '
+                                             'COUNTY',
+                             'millage_rate': '17.70540',
+                             'owner': 'GIOVANNI B BULDO &W CONSUELO',
+                             'school_assessed_value': '$66,056',
+                             'situs': '3510 NW 100 ST Unincorporated County '
+                                      '33147-1951'}},
+ 'folio': '3031040052101'}
+2020-10-27 16:15:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-10-27 16:15:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 827,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 19786,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 6.684828,
+ 'file_count': 1,
+ 'file_status_count/uptodate': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 10, 27, 23, 15, 15, 482109),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 121,
+ 'log_count/INFO': 10,
+ 'memusage/max': 71647232,
+ 'memusage/startup': 71639040,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2020, 10, 27, 23, 15, 8, 797281)}
+2020-10-27 16:15:15 [scrapy.core.engine] INFO: Spider closed (finished)
+https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills
+Inside MiamiTaxFilesPipeline get_media_requests
+about to download:  https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills/14360866/print
+Inside MiamiTaxFilesPipeline file_path
+Inside MiamiTaxFilesPipeline item_completed
+results:  [(True, {'url': 'https://miamidade.county-taxes.com/public/real_estate/parcels/30-3104-005-2101/bills/14360866/print', 'path': '30-3104-005-2101_bills_14360866.pdf', 'checksum': 'ea04041813a8c964ae8994852e314c2c', 'status': 'uptodate'})]

@@ -1,0 +1,1589 @@
+
+
+
+
+
+
+                Account Summary —  -         TaxSys - Alachua County Tax Collector    
+
+    var app_user_role = 'public';
+    var county_id = 'alachua';
+    var global_user_id = '09c503ee-5a2b-11e8-8c22-005056815882';
+    var global_user_name = 'Public_User';
+    var walkme_user = 'Public_User.alachua.09c503ee-5a2b-11e8-8c22-005056815882';
+
+
+        var walkme_api_key = '';
+    
+
+        var psc_client = 'alachua';
+        var psc_site   = 'taxsys-landing';
+    
+ 
+
+
+ window.static_url_prefix = ''; 
+  
+    function do_some_work() { return "238154933806080647654665101724386232327"; }
+ 
+
+
+                $(window).on('load', function() { set_page_load_cookie(0,101920360); });
+    
+
+    window.cc_check_ignore_fields = new Array("search_query", "search_account_number", "search_county_account_number", "account_number");
+
+
+
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-16964495-1']);
+    _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setCustomVar', 1, 'internal_url', '&#47;public&#47;property_tax&#47;view_parcel', 3]);
+    _gaq.push(['_setCustomVar', 1, 'county', 'alachua', 3]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+  
+
+
+
+
+
+Search all services we offer...
+
+
+
+
+
+
+Toggles the dropdown menu. .a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;} 
+
+
+
+Renew Vehicle RegistrationSearch and Pay Property TaxPay Tourist TaxRun a Central Assessment reportRun a Real Estate reportRun a Tangible Property reportGet bills by email 
+
+ 
+
+ 
+
+
+ 
+ 
+
+  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+
+
+ 
+
+
+
+
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;} 
+
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;} 
+
+
+
+
+
+
+
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;} 
+
+
+  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+
+
+ 
+
+
+ 
+    function set_auth0_redirect_uri() {
+        // first delete
+        document.cookie = "auth0_redirect_uri=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        // then set
+        document.cookie = "auth0_redirect_uri=" + window.location + ";path=/";
+    }
+
+    function prs_login(window_uri) {
+        if (! window_uri) {
+            window_uri = 'https://alachua.county-taxes.com';
+        }
+
+        set_auth0_redirect_uri();
+        window.location = window_uri + '/prs/sign_in';
+    }
+
+
+Log In/Sign Up 
+
+
+
+
+
+
+
+
+
+
+
+      .cls-1 {
+        fill: none;
+        stroke: #666;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    
+
+
+
+
+
+
+
+
+
+ 
+
+Renew 
+Vehicle Registration  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #666;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    
+
+
+
+
+
+ 
+
+Search and Pay 
+Property Tax  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .cls-1 {
+        fill: none;
+        stroke: #666;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    
+
+
+
+
+
+
+
+ 
+
+Pay 
+Tourist Tax  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .cls-1 {
+        fill: none;
+        stroke: #666;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    
+
+
+
+
+
+
+
+
+
+ 
+
+Renew 
+Vehicle Registration  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #666;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    
+
+
+
+
+
+ 
+
+Search and Pay 
+Property Tax  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .cls-1 {
+        fill: none;
+        stroke: #666;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    
+
+
+
+
+
+
+
+ 
+
+Pay 
+Tourist Tax  
+
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+Account Summary
+
+
+
+Real Estate Account #00248 011 000
+   
+
+
+
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #666;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+Print this page 
+
+ 
+
+
+
+
+Owner:
+
+ PARHAM L D  
+
+
+Situs:
+
+
+21304 NW 190TH AVE
+HIGH SPRINGS 32643 
+  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+Parcel details 
+
+ 
+
+
+ 
+
+
+
+
+Get bills by email 
+
+ 
+
+
+
+
+Amount due
+
+
+ 
+
+Your account is paid to date.
+Your next bill for 2020
+will be available for payment by 12/01/2020. 
+
+
+
+Your last payment was made on 
+09/29/2020
+for $1,272.45.
+
+
+  
+Print paid bill (PDF) 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Account history
+
+
+
+
+Bill
+Amount due
+Status
+Action
+
+
+
+
+2020  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+
+
+
+ 
+
+
+2020 Installment bill #4  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+
+ Upcoming 
+ 
+ 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2020 Installment bill #3  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+
+ Upcoming 
+ 
+ 
+
+
+  
+Print (PDF) 
+
+ 
+
+ 
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2020 Installment bill #2  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,272.45 
+
+09/29/2020 
+ Receipt #19-0246752 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2020 Installment bill #1  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,252.47 
+
+06/26/2020 
+ Receipt #19-0190026 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+
+Paid $2,524.92
+
+
+ 
+
+2019  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+
+
+
+ 
+
+
+2019 Installment bill #4  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,376.52 
+
+03/30/2020 
+ Receipt #19-0138578 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2019 Installment bill #3  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,335.23 
+
+12/31/2019 
+ Receipt #19-0076104 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2019 Installment bill #2  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,230.33 
+
+09/25/2019 
+ Receipt #18-0256585 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2019 Installment bill #1  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,211.00 
+
+06/27/2019 
+ Receipt #18-0200927 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+
+Paid $5,153.08
+
+
+ 
+
+2018  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+
+
+
+ 
+
+
+2018 Installment bill #4  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,291.72 
+
+03/28/2019 
+ Receipt #18-0140310 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2018 Installment bill #3  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,252.97 
+
+12/28/2018 
+ Receipt #18-0070378 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2018 Installment bill #2  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,227.06 
+
+09/25/2018 
+ Receipt #17-0257889 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2018 Installment bill #1  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,207.79 
+
+06/28/2018 
+ Receipt #17-0201784 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+
+Paid $4,979.54
+
+
+ 
+
+2017  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+
+
+
+ 
+
+
+2017 Installment bill #4  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,265.98 
+
+03/28/2018 
+ Receipt #17-0140392 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2017 Installment bill #3  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+ Paid 
+$1,228.01 
+
+12/27/2017 
+ Receipt #17-0071161 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2017 Installment bill #2  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,245.10 
+
+09/30/2017 
+ Receipt #16-0255341 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2017 Installment bill #1  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$1,225.54 
+
+06/13/2017 
+ Receipt #16-0184620 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+
+Paid $4,964.63
+
+
+ 
+
+
+2016 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$5,006.48 
+
+11/30/2016 
+ Receipt #16-0048840 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2015 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$4,943.61 
+
+11/30/2015 
+ Receipt #15-0043730 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2014 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$4,925.62 
+
+12/01/2014 
+ Receipt #14-0038815 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2013 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$4,841.26 
+
+12/02/2013 
+ Receipt #13-0043379 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2012 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$4,936.15 
+
+12/31/2012 
+ Receipt #12-0068837 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2011 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$5,236.34 
+
+11/30/2011 
+ Receipt #2011-3020363 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2010 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$5,228.60 
+
+11/30/2010 
+ Receipt #2010-3013367 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2009 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$3,413.41 
+
+11/30/2009 
+ Receipt #2009-1015709 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2008 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$3,193.82 
+
+11/30/2008 
+ Receipt #2008-9020155 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2007 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$3,414.27 
+
+11/28/2007 
+ Receipt #2007-9025314 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2006 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+ 
+$0.00 
+ 
+Paid 
+$3,541.08 
+
+11/28/2006 
+ Receipt #2006-9085923 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2005 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$3,495.55 
+
+11/29/2005 
+ Receipt #2005-9050977 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2004 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$3,406.76 
+
+11/29/2004 
+ Receipt #2004-9013838 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2003 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$3,407.65 
+
+11/26/2003 
+ Receipt #2003-3021181 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+ 
+
+
+2002 Annual bill  
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}  
+ 
+
+$0.00 
+ 
+Paid 
+$3,355.14 
+
+11/26/2002 
+ Receipt #2002-0216456 
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+  
+Print (PDF) 
+
+ 
+
+
+
+
+
+Total amount due
+$0.00
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ Help
+
+ Terms of Service
+
+ Reports
+
+
+
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;} 
+
+Contact Us 
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;} Tax Collector home 
+.a{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;}   
+
+ 
+ 
+
+
+
+
+
+ 
+
+
+
+
+© 2019–2020 Grant Street Group. All rights reserved.
+
+ 
+ 
